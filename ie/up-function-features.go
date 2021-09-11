@@ -10,7 +10,7 @@ package ie
 func NewUPFunctionFeatures(features ...uint8) *IE {
 	var l int
 	if len(features) >= 3 {
-		l = 4
+		l = 6
 	} else {
 		l = 2
 	}
